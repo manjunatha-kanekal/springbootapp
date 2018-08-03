@@ -1,53 +1,53 @@
 # springbootapp
+AWS base url: http://springbootapp.us-east-2.elasticbeanstalk.com
 
-# aws base url: http://springbootapp.us-east-2.elasticbeanstalk.com
 # Resources
 1.  Retrieve all employees
 	Type: Get
-    URL: `/employees/all`
+	URL: `/employees/all`
 
 2. `Inserting new employee record`
-    Type: Put
+	Type: Put
     URL: `/employees`
     ```json
     {
-        "id": "5b602ba92138ad36600087f2",
-        "first_name": "firstname",
-        "last_name": "lastname",
-        "department": "Product Development",
-        "dob": "1991-02-24T00:00:00.000+0000",
-        "designation": "SSE",
-        "doj": "2016-05-26T00:00:00.000+0000",
-        "doe": null,
-        "address": {
-            "house_no": "1",
-            "address_line2": "Sample",
-            "street": "Sample Street",
-            "city": "city",
-            "pincode": "123456"
-        },
-        "skillsets": [
-            {
-                "skill": "Core Java",
-                "rating": 8,
-                "endorsed": true
-            },
-            {
-                "skill": "Python",
-                "rating": 5,
-                "endorsed": false
-            },
-            {
-                "skill": "MongoDB",
-                "rating": 6,
-                "endorsed": false
-            },
-            {
-                "skill": "Salesforce",
-                "rating": 8,
-                "endorsed": true
-            }
-        ]
+	"id": "5b602ba92138ad36600087f2",
+	"first_name": "firstname",
+	"last_name": "lastname",
+	"department": "Product Development",
+	"dob": "1991-02-24T00:00:00.000+0000",
+	"designation": "SSE",
+	"doj": "2016-05-26T00:00:00.000+0000",
+	"doe": null,
+	"address": {
+	    "house_no": "1",
+	    "address_line2": "Sample",
+	    "street": "Sample Street",
+	    "city": "city",
+	    "pincode": "123456"
+	},
+	"skillsets": [
+	    {
+		"skill": "Core Java",
+		"rating": 8,
+		"endorsed": true
+	    },
+	    {
+		"skill": "Python",
+		"rating": 5,
+		"endorsed": false
+	    },
+	    {
+		"skill": "MongoDB",
+		"rating": 6,
+		"endorsed": false
+	    },
+	    {
+		"skill": "Salesforce",
+		"rating": 8,
+		"endorsed": true
+	    }
+	]
     }
     ```
 
